@@ -1,0 +1,32 @@
+/*
+position:static - default, always positioned according to the normal flow,
+position:relative - poition relative to it's  normal position.
+top, bottom , left , right
+*/
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+div {
+    border: 5px solid red;
+    background: green;
+}
+
+.one {
+    background: blue;
+    color: aliceblue;    
+}
+
+.two {
+    background: yellow;
+}
+
+span {
+    background: orangered;
+    font-weight: bolder;
+    font-size: large;
+}

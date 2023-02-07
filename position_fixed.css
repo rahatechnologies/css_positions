@@ -1,0 +1,24 @@
+ /* position: absolute - relative to the parent with position: relative position: 
+ 
+ fixed -relative to the viewport(screen),
+ starts as we are scrollling will use other content to fill out the space */
+
+ .nav{
+    background: red;
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    position :fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+.main_content{
+    margin-top: 2.5rem;
+}
+ .container{
+    background: blue;
+    height: 200vh;
+    margin-top: 2rem;
+ }

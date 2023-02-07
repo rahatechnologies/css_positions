@@ -1,0 +1,16 @@
+@import url("position_parent.css");
+/*
+position:static - default, always positioned according to the normal flow,
+position:relative - poition relative to it's  normal position.
+top, bottom , left , right
+*/
+
+
+.one{
+    position:relative;
+    /* top: 200px; */
+    bottom: 2rem;
+    left: -20%;
+    /* right: 10rem; */
+}
+

@@ -1,0 +1,35 @@
+
+
+div{
+position: relative;
+}
+
+.two{
+position: relative;
+}
+
+ .nav {
+     background: red;
+     color: aliceblue;
+     font-size: 1.5rem;
+     text-transform: capitalize;
+     position: absolute;
+     margin-top: 0;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+/* parent hierarchy for special class
+    browser > html > body > div> p > span
+    by default body is mentioned as position relative
+*/
+.special{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .container {
+     background: blue;
+     height: 200vh;
+     margin-top: 2rem;
+ }
